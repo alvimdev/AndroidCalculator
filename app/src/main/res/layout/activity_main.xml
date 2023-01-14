@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -40,14 +39,19 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_clear"
+            style="@style/btn_cla"
+            android:layout_weight="2"
+            android:text="@string/C" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_power"
             style="@style/btn_operators"
-            android:layout_weight="3"
-            android:text="C" />
+            android:text="@string/pw" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_split"
             style="@style/btn_operators"
-            android:text="/" />
+            android:text="@string/dv" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,22 +62,22 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_7"
             style="@style/btn_number"
-            android:text="7" />
+            android:text="@string/seven" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_8"
             style="@style/btn_number"
-            android:text="8" />
+            android:text="@string/eight" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_9"
             style="@style/btn_number"
-            android:text="9" />
+            android:text="@string/nine" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_times"
             style="@style/btn_operators"
-            android:text="ˣ" />
+            android:text="@string/X" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -84,22 +88,22 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_4"
             style="@style/btn_number"
-            android:text="4" />
+            android:text="@string/four" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_5"
             style="@style/btn_number"
-            android:text="5" />
+            android:text="@string/five" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_6"
             style="@style/btn_number"
-            android:text="6" />
+            android:text="@string/six" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_minus"
             style="@style/btn_operators"
-            android:text="-" />
+            android:text="@string/mn" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,22 +114,22 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_1"
             style="@style/btn_number"
-            android:text="1" />
+            android:text="@string/one" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_2"
             style="@style/btn_number"
-            android:text="2" />
+            android:text="@string/two" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_3"
             style="@style/btn_number"
-            android:text="3" />
+            android:text="@string/three" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_plus"
             style="@style/btn_operators"
-            android:text="+" />
+            android:text="@string/ms" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -134,25 +138,24 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_dot"
+            android:id="@+id/btn_comma"
             style="@style/btn_number"
-            android:text="," />
+            android:text="@string/pt" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_zero"
+            android:id="@+id/btn_0"
             style="@style/btn_number"
-            android:text="0" />
+            android:text="@string/zero" />
 
-        <androidx.appcompat.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_backspace"
             style="@style/btn_number"
-            android:src="@drawable/backspace_img"
-            android:scaleType="center" />
+            android:text="@string/bk" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_equals"
             style="@style/btn_operators"
-            android:text="=" />
+            android:text="@string/ig" />
     </LinearLayout>
 
 

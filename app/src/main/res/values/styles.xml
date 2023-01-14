@@ -5,6 +5,7 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:radius">40dp</item>
         <item name="android:textSize">28sp</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
@@ -14,6 +15,10 @@
     <style name="btn_operators" parent="btn_container">
         <item name="android:background">@drawable/btn_op_click</item>
         <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="btn_cla" parent="btn_container">
+        <item name="android:background">@drawable/btn_clear</item>
     </style>
 
     <style name="btn_number" parent="btn_container">
