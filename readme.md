@@ -16,6 +16,8 @@
 
 > <strong>English:</strong> Calculator app for android system using <ins>Android Studio IDEA</ins>. It's my first project of mobile applications, so i'm so glad with this result <br> <strong>Português:</strong> Aplicativo de calculadora para sistema Android usando <ins>Android Studio IDEA</ins>. É meu primeiro projeto de aplicativos móveis, então estou muito feliz com este resultado
 
+> <strong>Requirements:</strong> Android 5 or high // Android 5 ou superior
+
 ## 💻 Used Softwares
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
